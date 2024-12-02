@@ -60,7 +60,7 @@ body {
   }
 
   .body {
-    padding-bottom: 220px;
+    padding-bottom: 0;
     font-weight: 400;
   }
 
@@ -123,6 +123,20 @@ body {
   .button.button-marginleftauto {
     margin-left: auto;
     margin-right: -16px;
+  }
+
+  .button.button-2 {
+    background-image: linear-gradient(#ff5100, #ff9100 45%, #ffb048);
+    border-style: none;
+    margin-left: auto;
+    font-size: 35px;
+    line-height: 40px;
+    display: block;
+  }
+
+  .button.button-noborder {
+    border-style: none;
+    margin-left: 0;
   }
 
   .div-block-2 {
@@ -212,11 +226,11 @@ body {
   }
 
   .image-4 {
-    margin-top: -83px;
+    margin-top: 0;
     margin-left: auto;
     display: block;
     position: relative;
-    top: 0;
+    top: -59px;
   }
 
   .section-2 {
@@ -234,7 +248,7 @@ body {
     margin-bottom: 0;
     font-size: 35px;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 100%;
     text-decoration: none;
   }
 
@@ -336,6 +350,10 @@ body {
     background-image: linear-gradient(180deg, var(--ff7b00), var(--fe2f00) 36%, var(--ff2500) 72%, var(--ff246d));
   }
 
+  .section-3.hero.section-3-notoppadding {
+    padding-top: 4px;
+  }
+
   .div-block-9 {
     overflow: hidden;
   }
@@ -353,6 +371,14 @@ body {
     min-height: 20px;
     padding-bottom: 0;
     padding-right: 0;
+  }
+
+  .spacer.spacer-60px {
+    height: 60px;
+  }
+
+  .spacer.spacer-100px {
+    height: 100px;
   }
 
   .image-15 {
@@ -409,6 +435,15 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 100%;
+  }
+
+  .heading-4.heading-4-white {
+    color: var(--white);
+    line-height: 120%;
+  }
+
+  .heading-4.heading-4-white.heading-4-center {
+    text-align: center;
   }
 
   .flex-block-8 {
@@ -511,6 +546,13 @@ body {
     display: flex;
   }
 
+  .div-block-11.div-block-11-block {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+  }
+
   .div-block-12 {
     grid-column-gap: 27px;
     grid-row-gap: 27px;
@@ -543,6 +585,124 @@ body {
     margin-top: 0;
     position: relative;
     top: 5px;
+  }
+
+  .section-4 {
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .flex-block-14 {
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 141px;
+  }
+
+  .image-24 {
+    width: 100px;
+    margin-left: auto;
+    display: block;
+    position: absolute;
+  }
+
+  .image-25 {
+    width: 100%;
+    position: relative;
+    top: -25px;
+    left: -35px;
+  }
+
+  .div-block-13 {
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    position: relative;
+  }
+
+  .image-26 {
+    height: 56px;
+    position: absolute;
+    inset: 0% 119px 0% auto;
+  }
+
+  .image-26.image-26-1 {
+    height: 100px;
+    inset: 0% 0% 0% auto;
+  }
+
+  .image-27 {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .image-28 {
+    width: 25px;
+    margin: 60px auto 40px;
+    display: block;
+  }
+
+  .image-29 {
+    width: 120px;
+    margin: 40px auto 60px;
+    display: block;
+  }
+
+  .image-30 {
+    width: 75px;
+  }
+
+  .flex-block-15 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .flex-block-16 {
+    width: 1500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  .heading-5 {
+    color: var(--black);
+    flex-flow: column;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+  }
+
+  .div-block-14 {
+    position: relative;
+  }
+
+  .heading-6 {
+    background-image: linear-gradient(180deg, var(--ff7b00), var(--fe2f00) 47%, var(--ff2500));
+    color: var(--white);
+    letter-spacing: -5px;
+    border-radius: 2px 88px 88px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    position: absolute;
+    inset: auto auto -47px 71px;
+  }
+
+  .image-31 {
+    width: 300px;
+    position: absolute;
+    inset: auto 0% 0% auto;
   }
 }
 
